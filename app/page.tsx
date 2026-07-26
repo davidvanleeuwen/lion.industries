@@ -76,7 +76,7 @@ export default function Home() {
               </p>
               <a
                 className="text-link"
-                href="mailto:davidvanleeuwen@pm.me?subject=Lion%20Industries%20beta"
+                href="mailto:david@lion.industries?subject=Lion%20Industries%20beta"
               >
                 Interested in testing? Say hello
                 <span aria-hidden="true"> ↗</span>
@@ -131,7 +131,7 @@ export default function Home() {
           <div className="end-note-actions">
             <a
               className="button"
-              href="mailto:davidvanleeuwen@pm.me?subject=Hello%20Lion%20Industries"
+              href="mailto:david@lion.industries?subject=Hello%20Lion%20Industries"
             >
               Email David
             </a>

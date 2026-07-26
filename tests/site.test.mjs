@@ -23,13 +23,14 @@ test("exports the complete public site", async () => {
   assert.match(home, /og\.png/);
 
   assert.match(support, /Need a hand/);
-  assert.match(support, /davidvanleeuwen@pm\.me/);
+  assert.match(support, /david@lion\.industries/);
 
   assert.match(privacy, /Collect less/);
   assert.match(privacy, /does not use analytics/);
   assert.match(privacy, /first Lion Industries app is still in development/);
 
   for (const html of [home, support, privacy]) {
+    assert.doesNotMatch(html, /davidvanleeuwen@pm\.me/);
     assert.doesNotMatch(html, /Starter Project|codex-preview|taking shape automatically/i);
   }
 });

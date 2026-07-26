@@ -33,11 +33,11 @@ export default function SupportPage() {
             </p>
             <a
               className="button"
-              href="mailto:davidvanleeuwen@pm.me?subject=Lion%20Industries%20support"
+              href="mailto:david@lion.industries?subject=Lion%20Industries%20support"
             >
               Email support
             </a>
-            <p className="fine-print">davidvanleeuwen@pm.me</p>
+            <p className="fine-print">david@lion.industries</p>
           </div>
         </section>
 

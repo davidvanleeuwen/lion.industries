@@ -121,56 +121,9 @@ em {
 
 .brand {
   display: inline-flex;
-  gap: 13px;
   align-items: center;
   color: var(--ink);
   text-decoration: none;
-}
-
-.brand-mark {
-  position: relative;
-  display: grid;
-  width: 28px;
-  height: 28px;
-  place-items: center;
-  border: 1px solid var(--ink);
-}
-
-.brand-mark::before,
-.brand-mark::after {
-  position: absolute;
-  background: var(--accent);
-  content: "";
-}
-
-.brand-mark::before {
-  width: 4px;
-  height: 4px;
-}
-
-.brand-mark::after {
-  width: 38px;
-  height: 1px;
-  opacity: 0.5;
-}
-
-.brand-mark i {
-  position: absolute;
-  display: block;
-  background: var(--line);
-}
-
-.brand-mark i:first-child {
-  width: 1px;
-  height: 38px;
-}
-
-.brand-mark i:last-child {
-  width: 20px;
-  height: 20px;
-  border: 1px solid var(--dim);
-  border-radius: 50%;
-  background: transparent;
 }
 
 .brand-name {
@@ -788,11 +741,6 @@ em {
     align-items: center;
     padding-top: 22px;
     padding-bottom: 22px;
-  }
-
-  .brand-mark {
-    width: 24px;
-    height: 24px;
   }
 
   .site-header nav {

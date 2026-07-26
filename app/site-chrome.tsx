@@ -24,10 +24,6 @@ export function SiteChrome({
 
       <header className="site-header">
         <Link className="brand" href="/" aria-label="Lion Industries, home">
-          <span className="brand-mark" aria-hidden="true">
-            <i />
-            <i />
-          </span>
           <span className="brand-name">
             Lion
             <br />

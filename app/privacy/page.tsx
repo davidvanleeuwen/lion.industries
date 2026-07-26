@@ -73,8 +73,8 @@ export default function PrivacyPage() {
               <h2>04 / Contact</h2>
               <p>
                 Questions about privacy can go directly to David at{" "}
-                <a href="mailto:davidvanleeuwen@pm.me?subject=Lion%20Industries%20privacy">
-                  davidvanleeuwen@pm.me
+                <a href="mailto:david@lion.industries?subject=Lion%20Industries%20privacy">
+                  david@lion.industries
                 </a>
                 .
               </p>
